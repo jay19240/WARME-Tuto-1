@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/core.css" />
+  <link rel="stylesheet" type="text/css" href="styles/game.css" />
+  <script type="module" src="src/main.js"></script>
+  <title>Tutorial 01 - WARME Engine</title>
+  <link rel="icon" href="textures/favicon.ico">
+  <link rel="icon" type="image/jpeg" href="textures/favicon.jpg" />
+  <style>
+    h1 {
+      margin-bottom:10px;
+    }
+    center {
+      margin-bottom:10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="METRICS">
+    <a href="https://warme-engine.com/">
+      <img style="display:block; width:100%; margin-bottom:16px" src="textures/logo.png"/>
+    </a>
+    <span>WARME Engine 1.0.3</span>
+    <br/>
+    <span>FPS: <span id="fps"></span>
+    <br/>
+    <span>3D Renderer Time: <span id="rt"></span>
+  </div>
+  <div id="APP" style="margin: 0 auto">
+    <div id="APP_FAIL"></div>
+    <canvas id="CANVAS_3D" width="1px" height="1px"></canvas>
+    <canvas id="CANVAS_2D" width="1px" height="1px"></canvas>
+    <div id="UI_ROOT"></div>
+    <div id="UI_FADELAYER"></div>
+    <div id="UI_OVERLAYER"></div>
+  </div>
+</body>
+
+</html>
